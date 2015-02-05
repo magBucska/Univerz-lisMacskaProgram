@@ -1,0 +1,36 @@
+1. Az együttműködéshez használjuk a github plugint. Így telepítsd:
+
+A plugineket a Help/Install New Software menüből lehet telepíteni.
+A "Work with"-nél válasd ki az "-- All available Sites --"-t ahhoz hogy az összes
+repóban kereshess
+A keresőmezőbe írd be: git
+Most elég sokáig kell várni, majd megjelenik egy csomó csomag.
+Válaszd ki az "Eclipse GitHub integration with task focused interface" csomagot.
+Next
+Next
+"I accept the terms of licence agreement"
+Finish
+A restart kérdésre válaszolj "Yes"-t.
+
+Ha ezzel készen vagy, akkor Window/show view/Git repositories
+
+
+2. A programozásban a nevek nagyon fontosak.
+Egy idő után nagyon sok dolog lesz a programban, és akkor tudod őket megtalálni, ha jó
+névkonvenciókat használsz.
+
+2/a) Egy ilyen névkonvenció az, hogy a unit teszteket a tesztelt osztály után nevezzük el,
+a végére írva azt, hogy "Test".
+Tehát az "UniverzálisMacskaProgram" osztály helyes neve "MacskaTeszt".
+
+2/b) Ezen kívül nem hülyeség a projectet jól elnevezni. Most "java project" a neve.
+Mi lenne, ha "Univerzális Macska Program" lenne a neve?
+
+3. A tiszta kód nagyon fontos. Amire nincs szükségünk, töröljük.
+Ilyen a MacskaTeszt.test metódus, amit csak annak ellenőrzésére hoztunk létre, hogy a
+fejlesztő környezet működik. Szabadulj meg tőle!
+
+4. Persze bármi csak akkor tekinthető késznek, ha nem csak le van tesztelvem de kinnt is van a githubon.
+
+
+Tehát a következő feladataid vannak
