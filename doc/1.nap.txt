@@ -12,7 +12,16 @@ Next
 Finish
 A restart kérdésre válaszolj "Yes"-t.
 
-Ha ezzel készen vagy, akkor Window/show view/Git repositories
+Amikor újraindult az Eclipse, File/Import, a kereső mezőbe írd be hogy git, és válaszd ki
+a "Repositories from github"-ot, next, írd be a keresőmezőbe, hogy "Univerz-lisMacskaprogram",
+majd válaszd ki a projectedet, és nyomj "Finish"-t.
+Window/preferences/General/Network connections/SSH2/Key management/load existing key
+az id_rsa nevű file-t nyitod meg a .ssh könyvtáradból.
+
+Ha ezzel készen vagy, akkor Window/show view/other.., és ott válaszd ki a "Git repositories" nevűt.
+Ettől a bal alsó sarokban megjelenik egy ablak. Azon jobb gomb, import projects, Finish.
+
+Gratulálok, most már szinkronban vagy a GitHub-al!
 
 
 2. A programozásban a nevek nagyon fontosak.
@@ -30,7 +39,22 @@ Mi lenne, ha "Univerzális Macska Program" lenne a neve?
 Ilyen a MacskaTeszt.test metódus, amit csak annak ellenőrzésére hoztunk létre, hogy a
 fejlesztő környezet működik. Szabadulj meg tőle!
 
-4. Persze bármi csak akkor tekinthető késznek, ha nem csak le van tesztelvem de kinnt is van a githubon.
+4. Persze bármi csak akkor tekinthető késznek, ha nem csak le van tesztelve,
+ de kinnt is van a githubon.
 
+Ehhez először commmitold el a változtatásokat.
+A git repositories ablakban a projecten jobb gomb/commit. Írj egy commit üzenetet,
+és válaszd ki a fájlokat.
+
+Utána szintén a git repositories ablakban a projecten jobb gomb/Push Branch
 
 Tehát a következő feladataid vannak
+
+1. telepítsd a github plugint, és szinkronizáld a projectet a githubhoz
+
+2. a) nevezd át a teszt osztályt "MacskaTeszt"-nek
+   b) nevezd át a projectet
+
+3. Töröld ki a test metódust a MacskaTeszt osztályból.
+
+4. commit, push
