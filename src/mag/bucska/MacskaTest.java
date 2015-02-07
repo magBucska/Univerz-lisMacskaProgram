@@ -4,12 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class UniverzálisMacskaProgram {
-
-	@Test
-	public void test() {
-		assertTrue(true);
-	}
+public class MacskaTest {
 	
 	@Test
 	public void haHalatKapUgrik() {
