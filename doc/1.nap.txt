@@ -1,0 +1,60 @@
+1. Az együttműködéshez használjuk a github plugint. Így telepítsd:
+
+A plugineket a Help/Install New Software menüből lehet telepíteni.
+A "Work with"-nél válasd ki az "-- All available Sites --"-t ahhoz hogy az összes
+repóban kereshess
+A keresőmezőbe írd be: git
+Most elég sokáig kell várni, majd megjelenik egy csomó csomag.
+Válaszd ki az "Eclipse GitHub integration with task focused interface" csomagot.
+Next
+Next
+"I accept the terms of licence agreement"
+Finish
+A restart kérdésre válaszolj "Yes"-t.
+
+Amikor újraindult az Eclipse, File/Import, a kereső mezőbe írd be hogy git, és válaszd ki
+a "Repositories from github"-ot, next, írd be a keresőmezőbe, hogy "Univerz-lisMacskaprogram",
+majd válaszd ki a projectedet, és nyomj "Finish"-t.
+Window/preferences/General/Network connections/SSH2/Key management/load existing key
+az id_rsa nevű file-t nyitod meg a .ssh könyvtáradból.
+
+Ha ezzel készen vagy, akkor Window/show view/other.., és ott válaszd ki a "Git repositories" nevűt.
+Ettől a bal alsó sarokban megjelenik egy ablak. Azon jobb gomb, import projects, Finish.
+
+Gratulálok, most már szinkronban vagy a GitHub-al!
+
+
+2. A programozásban a nevek nagyon fontosak.
+Egy idő után nagyon sok dolog lesz a programban, és akkor tudod őket megtalálni, ha jó
+névkonvenciókat használsz.
+
+2/a) Egy ilyen névkonvenció az, hogy a unit teszteket a tesztelt osztály után nevezzük el,
+a végére írva azt, hogy "Test".
+Tehát az "UniverzálisMacskaProgram" osztály helyes neve "MacskaTeszt".
+
+2/b) Ezen kívül nem hülyeség a projectet jól elnevezni. Most "java project" a neve.
+Mi lenne, ha "Univerzális Macska Program" lenne a neve?
+
+3. A tiszta kód nagyon fontos. Amire nincs szükségünk, töröljük.
+Ilyen a MacskaTeszt.test metódus, amit csak annak ellenőrzésére hoztunk létre, hogy a
+fejlesztő környezet működik. Szabadulj meg tőle!
+
+4. Persze bármi csak akkor tekinthető késznek, ha nem csak le van tesztelve,
+ de kinnt is van a githubon.
+
+Ehhez először commmitold el a változtatásokat.
+A git repositories ablakban a projecten jobb gomb/commit. Írj egy commit üzenetet,
+és válaszd ki a fájlokat.
+
+Utána szintén a git repositories ablakban a projecten jobb gomb/Push Branch
+
+Tehát a következő feladataid vannak
+
+1. telepítsd a github plugint, és szinkronizáld a projectet a githubhoz
+
+2. a) nevezd át a teszt osztályt "MacskaTeszt"-nek
+   b) nevezd át a projectet
+
+3. Töröld ki a test metódust a MacskaTeszt osztályból.
+
+4. commit, push
