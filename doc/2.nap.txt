@@ -1,0 +1,35 @@
+Ha azt szeretnéd, hogy valami csak akkor történjen meg, ha bizonyos feltételek fennálnak,
+az "if" kifejezést tudod használni. Pl:
+
+if (szam > 10)
+	nagy = true;
+	
+A fenti kód azt csinálja, hogy a "nagy" változó értéke igaz, ha a szam nagyobb mint tíz.
+De mi van akkor ha nem nagyobb?
+
+if (szam > 10)
+	nagy = true;
+else
+	nagy = false;
+
+az "else" ág való arra, hogy megadjuk, mi történjen akkor ha a feltétel nem igaz.
+Else ágat nem kötelező csinálni.
+
+Természetesen nem csak értékadás lehet egy if kifejezésben:
+
+public void nagyE(int szam) {
+	if(szam > 10)
+		return true;
+	else
+		return false;
+}
+
+És mivel a return visszatér az egész függvényből, ezért a fentit egyszerűbben így lehet írni:
+
+public void nagyE(int szam) {
+	if(szam > 10)
+		return true;
+	return false;
+}
+
+Van egy új teszt, és piros! Javítsd ki a kódot, hogy zöld legyen!
