@@ -18,4 +18,11 @@ public class MacskaTest {
 		Macska cica=new Macska();
 		assertEquals("Dorombol",cica.kap ("Májkrém"));
 	}
+
+	@Test
+	public void haCsontotKapUgat() {
+		Macska cica=new Macska();
+		assertEquals("Ugat",cica.kap ("Csont"));
+	}
+
 }

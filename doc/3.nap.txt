@@ -1,0 +1,9 @@
+A tiszta kód nagyon fontos dolog. Egyszer már takarítottuk a kódot, kivettük belőle az okafogyottá
+vált legelső tesztesetet. Most folytassuk a takarítást.
+
+1) Ha valahol commentet látunk, azt azonnal törölni kell. Azért, mert előbb-utóbb nem lesz igaz.
+	A Macska osztály elején lévő commenttel pont ez a helyzet. Töröld ki az egész sort!
+
+2) És persze ismét van egy új tesztesetünk, amitől elpirult szegény. Javítsd ki!
+
+
