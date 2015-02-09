@@ -20,4 +20,4 @@ vált legelső tesztesetet. Most folytassuk a takarítást.
 	Készíts egy @Before public void setUp() metódust, és a cica kezdeti értékadását mozgasd
 	át oda! Ne felejts el tesztelni!
 	
-4) Természetesen egy feladat akkor van kész, ha zöld és fel is commitoltad.
+4) Természetesen egy feladat akkor van kész, ha zöld és fel is pusholtad a githubra.
