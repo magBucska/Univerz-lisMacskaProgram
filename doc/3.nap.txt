@@ -4,6 +4,20 @@ vált legelső tesztesetet. Most folytassuk a takarítást.
 1) Ha valahol commentet látunk, azt azonnal törölni kell. Azért, mert előbb-utóbb nem lesz igaz.
 	A Macska osztály elején lévő commenttel pont ez a helyzet. Töröld ki az egész sort!
 
-2) És persze ismét van egy új tesztesetünk, amitől elpirult szegény. Javítsd ki!
+2) Mint emlékszünk rá,a nevek nagyon fontosak. A Macska.kap metódus paraméterének most éppen az a neve,
+	hogy string. Ez nem mond nagyon sokat. Mi lenne, ha az lenne a neve, hogy kaja?
+	Változtasd meg a nevét!
+	Tipp: a paraméter többször előfordul a függvényben. Mindenhol meg kell változtatni.
+		Ennek legegyszerűbb módja az, hogy az eclipse-el nevezteted át.
+		Rámégy, és nyomsz egy Shift+Alt+R kombinációt.
 
-
+3) Ez a MacskaTeszt is kezd már elfajulni. Van benne két metódus, ami kb ugyanazt csinálja,
+	csak más paraméterekkel. Egyszerűsítsük le!
+   a) A cicából csináljunk mezőt, vagyis olyan változót,ami az egész
+	osztályban látható. Ehhez mozgassuk át a metódusból az osztályba!
+	Ne felejtsd el lefuttatni a teszteket!
+   b) A @Before annotációval megmondhatjuk, hogy mit kell csinálni a teszt elindítása után.
+	Készíts egy @Before public void setUp() metódust, és a cica kezdeti értékadását mozgasd
+	át oda! Ne felejts el tesztelni!
+	
+4) Természetesen egy feladat akkor van kész, ha zöld és fel is commitoltad.
