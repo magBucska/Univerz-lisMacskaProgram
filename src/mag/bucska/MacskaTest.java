@@ -18,4 +18,5 @@ public class MacskaTest {
 		Macska cica=new Macska();
 		assertEquals("Dorombol",cica.kap ("Májkrém"));
 	}
+
 }
