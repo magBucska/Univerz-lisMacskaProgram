@@ -2,20 +2,24 @@ package mag.bucska;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class MacskaTest {
-	
+	Macska cica;
+
 	@Test
 	public void haHalatKapUgrik() {
-		Macska cica;
-		cica=new Macska();
 		assertEquals("Ugrik",cica.kap ("Hal"));
 	}
-	
+
+	@Before
+	public void setUp() {
+		 cica=new Macska()	;
+	}
+
 	@Test
 	public void haMajkremetKapDorombol() {
-		Macska cica=new Macska();
 		assertEquals("Dorombol",cica.kap ("Májkrém"));
 	}
 
