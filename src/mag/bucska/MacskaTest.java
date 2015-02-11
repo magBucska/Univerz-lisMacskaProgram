@@ -23,4 +23,19 @@ public class MacskaTest {
 		assertEquals("Dorombol",cica.kap ("Májkrém"));
 	}
 
+	@Test
+	public void haCsontotKapNyavog() {
+		assertEquals("Nyavog",cica.kap ("Csont"));
+	}
+
+	@Test
+	public void haEgeretKapÜvölt() {
+		assertEquals("Üvölt",cica.kap ("Egér"));
+	}
+
+	@Test
+	public void haNáthátKapSzipog() {
+		assertEquals("Szipog",cica.kap ("Nátha"));
+	}
+
 }
