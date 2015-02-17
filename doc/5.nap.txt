@@ -1,0 +1,5 @@
+Itt egy kis olvasnivaló az osztályokról:
+http://wiki.javaforum.hu/pages/viewpage.action?pageId=21103905
+
+A tesztben elneveztük a cicát Bélának.
+Piros is lett a kód. Javítsd meg!

@@ -15,7 +15,7 @@ public class MacskaTest {
 
 	@Before
 	public void setUp() {
-		 cica=new Macska()	;
+		 cica=new Macska("Béla")	;
 	}
 
 	@Test
