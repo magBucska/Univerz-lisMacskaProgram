@@ -6,7 +6,7 @@ import java.util.Map;
 public class Macska {
 	Map<String, String> macskaMap ; 
 	
-	public Macska () {
+	public Macska (String kaja) {
 		macskaMap = new HashMap<String, String>();
 		macskaMap.put("Hal", "Ugrik");
 		macskaMap.put("Májkrém", "Dorombol"); 
