@@ -10,7 +10,7 @@ public class MacskaTest {
 
 	@Test
 	public void haHalatKapUgrik() {
-		assertEquals("Ugrik",cica.kap ("Hal"));
+		assertEquals("Béla Ugrik",cica.kap ("Hal"));
 	}
 
 	@Before
@@ -20,22 +20,22 @@ public class MacskaTest {
 
 	@Test
 	public void haMajkremetKapDorombol() {
-		assertEquals("Dorombol",cica.kap ("Májkrém"));
+		assertEquals("Béla Dorombol",cica.kap ("Májkrém"));
 	}
 
 	@Test
 	public void haCsontotKapNyavog() {
-		assertEquals("Nyavog",cica.kap ("Csont"));
+		assertEquals("Béla Nyavog",cica.kap ("Csont"));
 	}
 
 	@Test
 	public void haEgeretKapÜvölt() {
-		assertEquals("Üvölt",cica.kap ("Egér"));
+		assertEquals("Béla Üvölt",cica.kap ("Egér"));
 	}
 
 	@Test
 	public void haNáthátKapSzipog() {
-		assertEquals("Szipog",cica.kap ("Nátha"));
+		assertEquals("Béla Szipog",cica.kap ("Nátha"));
 	}
 
 }
