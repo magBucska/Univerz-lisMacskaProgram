@@ -8,11 +8,11 @@ public class Macska {
 	
 	public Macska (String kaja) {
 		macskaMap = new HashMap<String, String>();
-		macskaMap.put("Hal", "Ugrik");
-		macskaMap.put("Májkrém", "Dorombol"); 
-		macskaMap.put("Csont", "Nyavog");
-		macskaMap.put("Egér", "Üvölt");
-		macskaMap.put ("Nátha", "Szipog");
+		macskaMap.put("Hal", "Béla Ugrik");
+		macskaMap.put("Májkrém", "Béla Dorombol"); 
+		macskaMap.put("Csont", "Béla Nyavog");
+		macskaMap.put("Egér", "Béla Üvölt");
+		macskaMap.put ("Nátha", "Béla Szipog");
 	}
 
 	public String kap(String kaja) {
