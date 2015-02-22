@@ -8,10 +8,11 @@ import org.junit.Test;
 public class MacskaTest {
 	Macska cica;
 
-	@Test
-	public void haHalatKapUgrik() {
-		assertEquals("Béla Ugrik",cica.kap ("Hal"));
+	private void assertAztCsinaljaHogy(Macska cico, String mitKap, String muvelet) {
+		String mitCsinal = cico.nev + " " + muvelet;
+		assertEquals(mitCsinal,cico.kap (mitKap));
 	}
+
 
 	@Before
 	public void setUp() {
@@ -19,23 +20,34 @@ public class MacskaTest {
 	}
 
 	@Test
+	public void haHalatKapUgrik() {
+		assertEquals("Béla Ugrik",cica.kap ("Hal"));
+	}
+
+	@Test
+	public void aMacskaNeveIsStimmel() {
+		Macska masikCica = new Macska("Cirmike");
+		assertEquals("Cirmike Ugrik",masikCica.kap ("Hal"));
+	}
+	
+	@Test
 	public void haMajkremetKapDorombol() {
-		assertEquals("Béla Dorombol",cica.kap ("Májkrém"));
+		assertAztCsinaljaHogy(cica,"Májkrém", "Dorombol");
 	}
 
 	@Test
 	public void haCsontotKapNyavog() {
-		assertEquals("Béla Nyavog",cica.kap ("Csont"));
+		assertAztCsinaljaHogy(cica,"Csont", "Nyavog");
 	}
 
 	@Test
 	public void haEgeretKapÜvölt() {
-		assertEquals("Béla Üvölt",cica.kap ("Egér"));
+		assertAztCsinaljaHogy(cica,"Egér", "Üvölt");
 	}
 
 	@Test
 	public void haNáthátKapSzipog() {
-		assertEquals("Béla Szipog",cica.kap ("Nátha"));
+		assertAztCsinaljaHogy(cica,"Nátha", "Szipog");
 	}
 
 }
