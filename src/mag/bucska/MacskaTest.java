@@ -49,5 +49,14 @@ public class MacskaTest {
 	public void haNáthátKapSzipog() {
 		assertAztCsinaljaHogy(cica,"Nátha", "Szipog");
 	}
+	
+	@Test
+	public void haGombolyagotKapAddigJátszikAmigNathasNemLesz(){
+		assertAztCsinaljaHogy(cica,"Gombolyag", "Játszik");		
+		assertAztCsinaljaHogy(cica,"Csont", "Játszik");		
+		assertAztCsinaljaHogy(cica,"Májkrém", "Játszik");		
+		assertAztCsinaljaHogy(cica,"Nátha", "Szipog");
+		assertAztCsinaljaHogy(cica,"Egér", "Üvölt");
+	}
 
 }
