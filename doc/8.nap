@@ -1,0 +1,8 @@
+A cicánk nagyon szereti a gombolyagot.
+Ha véletlenül gombolyagot kap, akkor onnantól kezdve mindenre játékkal reagál.
+Egészen addig, amíg náthás nem lesz.
+
+Ezt úgy lehet elérni, hogy a cicának állapotot csinálunk: kap egy mezőt, ami azt tárolja, hogy most éppen játékos állapotban van-e.
+Ezt a mezőt kell megnézni (az "if" utasítással), ahhoz hogy eldöntsük, a szokásos dologgal térünk-e vissza, vagy pedig azzal, hogy "Játszik".
+
+Azt a típust, aminek az értéke igaz (true) vagy hamis (false) lehet, úgy nevezzük hogy boolean.
